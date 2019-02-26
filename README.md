@@ -10,6 +10,7 @@ Kotlin Vertx Integration is a open source kotlin vertx integration example.
 |:---:|---|
 |Java|1.8+|
 |Kotlin|1.2.x|
+|Vertx|3.4.x|
 
 ### Contributors(In no particular order)
 
