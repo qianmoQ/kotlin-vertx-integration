@@ -15,6 +15,7 @@
         <!-- dependency -->
         <dependency.kotlin.version>1.2.71</dependency.kotlin.version>
         <dependency.vertx.ersion>3.4.1</dependency.vertx.ersion>
+        <dependency.slf4j.version>1.7.25</dependency.slf4j.version>
         <!-- plugin -->
         <plugin.maven.compiler.version>3.3</plugin.maven.compiler.version>
         <plugin.maven.javadoc.version>2.10.4</plugin.maven.javadoc.version>
@@ -50,6 +51,16 @@
             <groupId>io.vertx</groupId>
             <artifactId>vertx-web</artifactId>
             <version>${dependency.vertx.ersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-web-templ-thymeleaf</artifactId>
+            <version>${dependency.vertx.ersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${dependency.slf4j.version}</version>
         </dependency>
     </dependencies>
 
